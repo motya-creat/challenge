@@ -1,5 +1,28 @@
 body {
+  background-color: #c0c0c0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 } 
+.container {
+    background-color: aquamarine;
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    text-align: center;
+}
+header {
+  background-color: cadetblue;
+  text-align: center;
+  color: bisque;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.header {
+  max-width: 2000px;
+  display: flex;
+  justify-content: space-between;
+
+}
