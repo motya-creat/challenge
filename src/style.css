@@ -1,33 +1,56 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    display: flex;
-    /* Превращает элемент в flex контейнер */
-    flex-direction: column;
-    /* Определяет в каком направлении будет выстраеваться flex контейнеры */
-    justify-content: center;
-    /* Выравние по горизонтали если flex direction:row или по вертикали если flex direction column */
-    align-items: center;
-    width: 100%;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 30px;
-    line-height: 0.0001px;
-}
-
-img {
-    height: 200px;
-    /* Высота */
-    width: 200px;
-    /* Ширина */
-    object-fit: cover;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        display: flex;
+        /* Превращает элемент в flex контейнер */
+        flex-direction: column;
+        /* Определяет в каком направлении будет выстраеваться flex контейнеры */
+        justify-content: center;
+        /* Выравние по горизонтали если flex direction:row или по вертикали если flex direction column */
+        align-items: center;
+        width: 100%;
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        line-height: 0.0001px;
+    }
+    
+    img {
+        height: 200px;
+        /* Высота */
+        width: 200px;
+        /* Ширина */
+        object-fit: cover;
+    }
+    
+    .information {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .information-contact {
+        display: flex;
+        height: 700px;
+        width: 400px;
+        align-items: baseline;
+        flex-direction: column;
+    }
+    
+    .information-abaut {
+        display: flex;
+        height: 700px;
+        width: 400px;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
